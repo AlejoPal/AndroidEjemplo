@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    >
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.AppBarLayout.PrimarySurface"
+            android:fitsSystemWindows="true">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/app_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="Articulos"
+                app:navigationIcon="@drawable/ic_baseline_menu_24"
+                style="@style/Widget.MaterialComponents.Toolbar.PrimarySurface"
+                android:background="@android:color/transparent"
+                android:elevation="0dp" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_padding"
+        tools:context=".view.VerArticulosActivity">
+
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="11dp"
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginStart="10dp"
+                android:text="Buscar"
+                android:textColor="#72bb53"
+                android:textSize="22sp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toStartOf="@+id/textView2"
+                tools:layout_editor_absoluteY="16dp"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Promociones"
+                android:textColor="#72bb53"
+                android:textSize="22sp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toStartOf="@+id/textView3"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Comprar"
+                android:textColor="#72bb53"
+                android:textSize="22sp"
+                android:layout_marginTop="5dp"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_weight="3"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="149dp"
+                android:layout_marginEnd="5dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/mapView"
+                app:layout_constraintEnd_toStartOf="@+id/imageView4"
+                app:layout_constraintHorizontal_bias="0.318"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/echeverria_black_prince" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_weight="3"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="152dp"
+                android:clickable="true"
+                app:layout_constraintBottom_toBottomOf="@+id/mapView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/echeveria_siempreviva" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="10dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:clickable="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/crassula_perforata" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@mipmap/crasula_variegada7"
+                tools:layout_editor_absoluteY="76dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:layout_marginBottom="@dimen/logo_margin_bottom"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/whatsapp"  />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="13dp"
+                android:layout_marginStart="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Dayana Alejandra Gomez"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sede fisica Crr 4 # 2-38"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nv_ver_articulos"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_navigation_drawer"
+        app:menu="@menu/navigation_drawer"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.com.mintic.proyecto.patiplants">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PatiPlants">
+        <activity
+            android:name=".view.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.EcheveriaSetosaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.EcheveriaSiemprevivaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.CrassulaPerforataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.EcheveriaBlackPrinceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.EcheveriaImbricataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.VerArticulosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.RegisterUsersActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

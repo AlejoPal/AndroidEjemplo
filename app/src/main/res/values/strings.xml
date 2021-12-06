@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pati Plants</string>
+
+    <string name="login_login">Inicio de sesión</string>
+    <string name="login_email">Correo electrónico</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_start_with">O iniciar sesión con:</string>
+    <string name="login_facebook" translatable="false">Facebook</string>
+    <string name="login_google" translatable="false">Google</string>
+    <string name="Cost">Valor: </string>
+    <string name="cost_5" translatable="false">$5.000</string>
+    <string name="cost_7" translatable="false">$7.000</string>
+    <string name="from">Originaria: </string>
+    <string name="descriptor">Descripción: </string>
+    <string name="fab_content_desc" translatable="false">Cart Buy</string>
+
+</resources>

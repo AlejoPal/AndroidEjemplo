@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="@dimen/activity_padding"
+tools:context=".view.EcheveriaSiemprevivaActivity">
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/floating_action_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|bottom"
+    android:contentDescription="@string/fab_content_desc"
+    app:srcCompat="@drawable/ic_cart_plus" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- media-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="4. Echeveria Siempreviva"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/echeveria_siempreviva" />
+
+    <!--                Title secondary and supporting text-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="Echeveria Siempreviva"
+        android:textSize="@dimen/text_important"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medio_margin8"
+            android:text="@string/Cost"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medio_margin8"
+            android:text="@string/cost_5"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medio_margin8"
+        android:text="@string/from"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Echeveria Siempreviva de las tierras áridas en las regiones de alta montaña del sur y del centro de Europa."
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medio_margin8"
+        android:text="Situacion"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La siempreviva es una planta crasa o suculenta de hoja perenne o semiperenne. Pertenece a la familia de las Crasuláceas (Crasulaceae). Crece extendiéndose hasta que mide unos 30 cm. Las hojas son basales, nacen formando rosetas circulares; son oblongas y acabadas en punta, verdes o tintadas de tonos rojizos. En estas hojas, carnosas y engrosadas, se almacena el agua que permite a la planta resistir largos periodos de sequía y adaptarse a entornos áridos y rocosos."
+        android:textStyle="italic" />
+
+
+</LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

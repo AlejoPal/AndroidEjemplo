@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ROG/AndroidStudioProjects/VentasDomicilioG2/app/src/main/res/layout-land/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/ROG/AndroidStudioProjects/VentasDomicilioG2/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/ROG/AndroidStudioProjects/VentasDomicilioG2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/PatiPlants/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/PatiPlants/app/src/main/res/layout-land/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/PatiPlants/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-2ff/app/src/main/res/layout-land/activity_login.xml" value="0.234375" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-2ff/app/src/main/res/layout-land/register_users.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-2ff/app/src/main/res/layout/activity_login.xml" value="0.3176178660049628" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-2ff/app/src/main/res/layout/activity_ver_articulos.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-2ff/app/src/main/res/layout/header_navigation_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-2ff/app/src/main/res/menu/options.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/layout-land/activity_login.xml" value="0.24739583333333334" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/layout/activity_crassula_perforata.xml" value="0.2710843373493976" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/layout/activity_echeveria_black_prince.xml" value="0.1046875" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/layout/activity_echeveria_imbricata.xml" value="0.1265625" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/layout/activity_login.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/layout/activity_main.xml" value="0.1265625" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/layout/activity_profile.xml" value="0.24598930481283424" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/layout/activity_ver_articulos.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/layout/header_navigation_drawer.xml" value="0.1265625" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/layout/register_users.xml" value="0.1265625" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/grupo-patiplants/app/src/main/res/menu/navigation_drawer.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/proyecto-c4g2 - copia/app/src/main/res/layout-land/activity_login.xml" value="0.2125" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/proyecto-c4g2 - copia/app/src/main/res/layout/activity_login.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/proyecto-c4g2/app/src/main/res/layout-land/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/proyecto-c4g2/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/aleja/OneDrive/Escritorio/proyecto-c4g2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/hugon/Documents/AndroidStudio_MisionTic2022/PatiPlants/app/src/main/res/layout-land/activity_login.xml" value="0.146875" />
+        <entry key="..\:/Users/hugon/Documents/AndroidStudio_MisionTic2022/PatiPlants/app/src/main/res/layout/activity_login.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/hugon/Documents/AndroidStudio_MisionTic2022/PatiPlants/app/src/main/res/layout/activity_ver_articulos.xml" value="0.22" />
+        <entry key="..\:/Users/hugon/Documents/AndroidStudio_MisionTic2022/PatiPlants/app/src/main/res/layout/register_users.xml" value="0.25" />
+        <entry key="..\:/tmp/mintic/movil/patiplants/app/src/main/res/drawable-v24/ic_cart_plus.xml" value="0.2169230769230769" />
+        <entry key="..\:/tmp/mintic/movil/patiplants/app/src/main/res/layout-land/activity_echeveria_imbricata.xml" value="0.1728395061728395" />
+        <entry key="..\:/tmp/mintic/movil/patiplants/app/src/main/res/layout/activity_crassula_perforata.xml" value="0.20416666666666666" />
+        <entry key="..\:/tmp/mintic/movil/patiplants/app/src/main/res/layout/activity_echeveria_black_prince.xml" value="0.20416666666666666" />
+        <entry key="..\:/tmp/mintic/movil/patiplants/app/src/main/res/layout/activity_echeveria_imbricata.xml" value="0.20416666666666666" />
+        <entry key="..\:/tmp/mintic/movil/patiplants/app/src/main/res/layout/activity_echeveria_setosa.xml" value="0.25" />
+        <entry key="..\:/tmp/mintic/movil/patiplants/app/src/main/res/layout/activity_echeveria_siempreviva.xml" value="0.20416666666666666" />
+        <entry key="..\:/tmp/mintic/movil/patiplants/app/src/main/res/layout/activity_ver_articulos.xml" value="0.5" />
+        <entry key="..\:/tmp/mintic/movil/patiplants/app/src/main/res/layout/register_users.xml" value="0.20416666666666666" />
+        <entry key="..\:/universidad/misiontic/ciclo 4/app/PatiPlants/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/universidad/misiontic/ciclo 4/app/PatiPlants/app/src/main/res/layout/register_users.xml" value="0.22" />
+        <entry key="..\:/universidad/misiontic/ciclo 4d/app/src/main/res/layout/activity_ver_articulos.xml" value="0.20416666666666666" />
+        <entry key="..\:/universidad/misiontic/grupo-2da/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/universidad/misiontic/grupo-2da/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/universidad/misiontic/grupo-2da/app/src/main/res/layout/register_users.xml" value="0.15" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pati Plants</string>
+
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_start_with">Or start with:</string>
+    <string name="Cost">Cost</string>
+    <string name="from">"From: "</string>
+    <string name="descriptor">"Description: "</string>
+</resources>

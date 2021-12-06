@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="@dimen/activity_padding"
+tools:context=".view.EcheveriaSetosaActivity">
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/floating_action_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|bottom"
+    android:contentDescription="@string/fab_content_desc"
+    app:srcCompat="@drawable/ic_cart_plus" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- media-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="5. Echeveria setosa "
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/crassula_setosa" />
+
+    <!--                Title secondary and supporting text-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="Echeveria setosa"
+        android:textSize="@dimen/text_important"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medio_margin8"
+            android:text="@string/Cost"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medio_margin8"
+            android:text="@string/cost_5"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medio_margin8"
+        android:text="@string/from"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esta planta tiene como nombre científico Echeveria setosa (sinónimo: Echeveria pilosa), es una magnífica planta suculenta perteneciente a la familia de las Crassulaceae. La Echeveria setosa es nativa de México."
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medio_margin8"
+        android:text="Situacion"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Las flores de la Echeveria setosa brotan en los extremos de largos tallos. Produce una floración abundante en tonalidades amarillas o anaranjadas que contrastan con la coloración verde grisácea de las hojas. Florece en primavera e inicios del verano. La Echeveria setosa puede propagarse mediantea esquejes de tallo al igual que de esquejes de hoja, en ambos casos hay que dejar secar el corte durante un par de días y luego plantar."
+        android:textStyle="italic" />
+
+
+</LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

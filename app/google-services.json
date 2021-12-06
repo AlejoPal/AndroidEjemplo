@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "658828943216",
+    "project_id": "patiplants-3d570",
+    "storage_bucket": "patiplants-3d570.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658828943216:android:cd3a7896de1a8b2dcdf9b5",
+        "android_client_info": {
+          "package_name": "co.com.mintic.proyecto.patiplants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658828943216-r9a107m902doa8dhs0jt2pom25cp3n72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJRR98qqohKNdyn8dng-6rAEQY1vqb3Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658828943216-r9a107m902doa8dhs0jt2pom25cp3n72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

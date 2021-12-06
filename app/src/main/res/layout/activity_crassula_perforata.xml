@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="@dimen/activity_padding"
+tools:context=".view.CrassulaPerforataActivity">
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/floating_action_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|bottom"
+    android:contentDescription="@string/fab_content_desc"
+    app:srcCompat="@drawable/ic_cart_plus" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- media-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="2. Crassula Perforata"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/crassula_perforata" />
+
+    <!--                Title secondary and supporting text-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="Crassula Perforata"
+        android:textSize="@dimen/text_important"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medio_margin8"
+            android:text="@string/Cost"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medio_margin8"
+            android:text="@string/cost_5"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medio_margin8"
+        android:text="@string/from"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crassula perforata es una especie de la familia Crassulaceae nativa de las Provincias del Cabo, área biogeográfica que comprende la mayor parte de las provincias de Provincia del Cabo, en Sudáfrica."
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medio_margin8"
+        android:text="Situacion"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Requiere una exposición muy luminosa, incluso pleno sol para estimular la floración y mantener el peculiar aspecto de las hojas."
+        android:textStyle="italic" />
+
+
+</LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

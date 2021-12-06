@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="@dimen/activity_padding"
+tools:context=".view.EcheveriaImbricataActivity">
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/floating_action_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|bottom"
+    android:contentDescription="@string/fab_content_desc"
+    app:srcCompat="@drawable/ic_cart_plus" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- media-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="3. Echeveria Imbricata"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/echeveria_imbricata" />
+
+    <!--                Title secondary and supporting text-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="Echeveria Imbricata"
+        android:textSize="@dimen/text_important"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medio_margin8"
+            android:text="@string/Cost"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/medio_margin8"
+            android:text="@string/cost_7"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medio_margin8"
+        android:text="@string/from"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Echeveria × imbricata es una especie de planta suculenta de la familia Crassulaceae. Es un híbrido fértil obtenido en Francia, originado por la junta entre E. metallica y E. glauca."
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medio_margin8"
+        android:text="Situacion"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es una especie muy utilizada en los jardines y terrarios de todo el mundo, debido a su hermoso color y gran producción de plantas hijas."
+        android:textStyle="italic" />
+
+
+</LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

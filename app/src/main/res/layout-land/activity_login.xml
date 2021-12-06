@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    tools:context=".view.LoginActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="110dp"
+        android:layout_height="@dimen/logo_heigth"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/crasula_variegada7" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/default_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/radley_regular"
+            android:includeFontPadding="false"
+            android:text="Ingresar"
+            android:textColor="#72bb53"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/radley_regular"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/radley_regular"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:hint="@string/login_password"
+            app:endIconMode="password_toggle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="0dp"
+            android:text="INGRESAR"
+            android:textColor="@color/white"
+            android:background="#72bb53"
+            android:fontFamily="@font/radley_regular"
+            android:textSize="@dimen/text_important"
+            android:textStyle="bold" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/pb_wait"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:fitsSystemWindows="true"
+            android:indeterminate="true" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_create"
+            android:layout_width="200dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginVertical="5dp"
+            android:background="#72bb53"
+            android:fontFamily="@font/radley_regular"
+            android:text="CREAR CUENTA"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_important"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding"
+    tools:context=".view.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/radley_regular"
+        android:includeFontPadding="false"
+        android:text="Registrar"
+        android:textColor="#f85f6a"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/radley_regular"
+            android:inputType="textPersonName"
+            android:textColor="#c1d045"
+            android:textColorHint="#f85f6a"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="Dirección"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/radley_regular"
+            android:inputType="textEmailAddress"
+            android:textColor="#c1d045"
+            android:textColorHint="#f85f6a"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_email"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/radley_regular"
+            android:inputType="textEmailAddress"
+            android:textColor="#c1d045"
+            android:textColorHint="#CDDC39"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/login_password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_password"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/radley_regular"
+            android:textSize="17sp"
+            android:textColor="#c1d045"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btna_continue"
+        android:layout_marginTop="20dp"
+        android:layout_width="345dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/default_margin"
+        android:background="#f85f6a"
+        android:fontFamily="@font/radley_regular"
+        android:text="Continuar"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_important"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/radley_regular"
+            android:includeFontPadding="false"
+            android:text="¿Tiene una cuenta?"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_into"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:layout_weight="2"
+            android:background="#f85f6a"
+            android:text="ingresar"
+            android:textColor="@color/white" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
